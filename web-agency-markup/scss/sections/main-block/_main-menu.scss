@@ -1,0 +1,19 @@
+.main-menu {
+    @include flex();
+    background-color: white;
+    background-size: cover;
+    position: relative;
+    padding: 41px 133px 36px 625px;
+    border-bottom: 3px solid #adadad;
+    .menu-part {
+        margin-right: 40px;
+    }
+    .main {
+        color: #f6ae48;
+    }
+    .contacts {
+        margin-right: 0;
+    }
+}
+
+@import "./main-menu-media";

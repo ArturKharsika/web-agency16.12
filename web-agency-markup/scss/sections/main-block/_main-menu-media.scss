@@ -1,0 +1,13 @@
+@media (max-width: $laptop) {
+    .main-menu {
+        padding: 0;
+    }
+}
+
+
+@media (max-width: $tablet) {
+    .main-menu {
+        padding: 50px 0;
+        height: initial;
+    }
+}

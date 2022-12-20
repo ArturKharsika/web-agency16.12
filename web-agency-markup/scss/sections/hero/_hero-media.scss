@@ -1,0 +1,21 @@
+@media (max-width: $laptop) {
+    .hero-block {
+        padding: 0;
+    }
+}
+
+
+@media (max-width: $tablet) {
+    .hero-block {
+        padding: 50px 0;
+        height: initial;
+    }
+    .hero-content {
+        &__title {
+            max-width: 750px;
+        }
+        &__descr {
+            max-width: 750px;
+        }
+    }
+}
